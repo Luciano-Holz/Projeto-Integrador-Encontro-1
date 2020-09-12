@@ -1,0 +1,40 @@
+body {
+    font: Arial normal;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+#foto {
+    width: 300px;
+    border-radius: 50%;
+    
+}
+
+.fiel {
+    margin: 0 auto;
+    width: 500px;
+    background: white;
+    padding-left: 10px;
+    text-align: left;
+}
+.parag {
+    margin-left: 0px;
+}
+.inp {
+    text-align: center;
+}
+
+#opiniao {
+    width: 80%;
+    height: 100px;
+    margin: 10px;
+}
+#botao {
+    background: rgb(86, 83, 228);
+    color: rgb(239, 248, 248);
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 20px;
+}

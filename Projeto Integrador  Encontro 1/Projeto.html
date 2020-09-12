@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="css/stylee.css">
+</head>
+
+<body>
+    <h1>Pesquisa de Satisfação</h1>
+    <h4>Foi um prazer ter você conosco</h4>
+    <img id="foto" src="imagens/Pousada-Encantos-da-Terra-Cafe-da-Manha-6.jpg" alt="Restaurante">
+    <p>Restaurant</p>
+
+    <fieldset class="fiel">
+        <legend>Informações Pessoais</legend>
+        <p class="parag">Nome: <input class="inp" type="text"></p>
+        <p class="parag">Email: <input class="inp" type="password"></p>
+        <p class="parag">Celular: <input class="inp" type="tel"></p>
+        <p class="parag">CPF: <input class="inp" type="number"></p>
+        <p class="parag">Sexo: <br>
+            <input type="radio" name="sexo" value="Masculino">Masculino <br>
+            <input type="radio" name="sexo" value="Feminino">Feminino <br>
+            <input type="radio" name="sexo" value="Outro">Outro <br>
+        </p>
+        <p class="parag">Data de Nascimento: <input class="inp" type="date"></p>
+    </fieldset>
+
+    <fieldset class="fiel">
+        <legend>Onde você Mora?</legend>
+        <p class="parag">Endereço: <input class="inp" type="text"></p>
+        <p class="parag">Complemento: <input class="inp" type="text"></p>
+        <p class="parag">CEP: <input class="inp" type="text"></p>
+        <p class="parag">Cidade: <input class="inp" type="text"></p>
+        <p class="parag">Estado: <input class="inp" type="text"></p>
+    </fieldset>
+
+    <fieldset class="fiel">
+        <legend>Pratos</legend>
+        <p>Qual dos nossos pratos mais pedidos você prefere mais?</p>
+        <p class="parag"> <input type="checkbox">Talharim de filé aos quatro queijos</p>
+        <p class="parag"> <input type="checkbox">Linguado ao molho de camarão</p>
+        <p class="parag"> <input type="checkbox">Moqueca de peixe</p>
+        <p class="parag"> <input type="checkbox">Medalhao ao filé grelhado</p>
+        <p class="parag"> <input type="checkbox">Risoto de fungui sec</p>
+        <p class="parag"> <input type="checkbox">Filé a parmegiana</p>
+        <p class="parag"> <input type="checkbox">Nenhum dos anteriores</p>
+    </fieldset>
+
+    <fieldset class="fiel">
+        <legend>Avalie os seguintes itens</legend>
+        <p>Ambiente:
+            <select name="itens" id="itens">Ambiente:
+                <option value="Otimo">Ótimo</option>
+                <option value="Bom">Bom</option>
+                <option value="Ruim">Ruim</option>
+                <option value="Pessimo">Péssimo</option>
+            </select>
+        </p>
+
+        <p>Tempero:
+            <select name="itens" id="itens">Ambiente:
+                <option value="Otimo">Ótimo</option>
+                <option value="Bom">Bom</option>
+                <option value="Ruim">Ruim</option>
+                <option value="Pessimo">Péssimo</option>
+            </select>
+        </p>
+
+        <p>Pratos Principais:
+            <select name="itens" id="itens">Ambiente:
+                <option value="Otimo">Ótimo</option>
+                <option value="Bom">Bom</option>
+                <option value="Ruim">Ruim</option>
+                <option value="Pessimo">Péssimo</option>
+            </select>
+        </p>
+
+        <p>Sobremesa:
+            <select name="itens" id="itens">Ambiente:
+                <option value="Otimo">Ótimo</option>
+                <option value="Bom">Bom</option>
+                <option value="Ruim">Ruim</option>
+                <option value="Pessimo">Péssimo</option>
+            </select>
+        </p>
+
+        <p>Higiene e Limpeza:
+            <select name="itens" id="itens">Ambiente:
+                <option value="Otimo">Ótimo</option>
+                <option value="Bom">Bom</option>
+                <option value="Ruim">Ruim</option>
+                <option value="Pessimo">Péssimo</option>
+            </select>
+        </p>
+
+        <p>Tempo de Atendimento:
+            <select name="itens" id="itens">Ambiente:
+                <option value="Otimo">Ótimo</option>
+                <option value="Bom">Bom</option>
+                <option value="Ruim">Ruim</option>
+                <option value="Pessimo">Péssimo</option>
+            </select>
+        </p>
+
+    </fieldset>
+
+    <fieldset class="fiel">
+        <legend>Na sua Opinião</legend>
+        <p>Quais os pontos positivos de nosso restaurante?
+            <textarea name="opiniao" id="opiniao" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>Quais os pontos negativos de nosso restaurante?
+            <textarea name="opiniao" id="opiniao" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>Use este campo para deixar suas sugestões:
+            <textarea name="opiniao" id="opiniao" cols="30" rows="10"></textarea>
+        </p>
+       
+    </fieldset>
+
+    <input id="botao" type="submit" value="Submeter">
+
+</body>
+
+</html>
